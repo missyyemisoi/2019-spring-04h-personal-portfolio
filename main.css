@@ -1,4 +1,43 @@
-/*
+header {
+  background-image: url(profile.jpg);
+  background-size: cover;
+  height: 600px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Comic Sans MS";
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+img {
+  height: 300px
+}
+
+body {
+  background-color: lightpink;
+}
+
+Footer {
+  background-color: white;
+  padding: 10px;
+  font-family: "Comic Sans MS";
+}
+
+
+
 Use your CSS skills to restyle the page!
 
 Requirements:
